@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 <body>
-<div class="container">
     <header>
     <div class="he1">
         <img src="assets/images/logo.png" alt="logo">
@@ -24,15 +23,29 @@
     <div class="he3">
         <button>Book now</button>
     </div>
+    <div class="burger-menu">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+            <span></span>
+        </label>
+        <ul class="menubox">
+                <li><a class="menu-item" href="#">Start</a></li>
+                <li><a class="menu-item" href="#">Contact</a></li>
+                <li><a class="menu-item" href="#">Our history</a></li>
+                <li><a class="menu-item" href="#">Book now</a></li>
+        </ul>
+    </div>
     </header>
     <main>
         <div class="underheader1">
+            <div class="u11"><img class="house" src="assets/images/house.png" alt="house"></div>
             <img src="assets/images/logo.png" alt="logo1">
-            <h1>Experience the perfect combination of modern<br> housing & natural scenery.</h1>
+            <!-- <div class="u12"><h1>Experience the perfect combination of modern<br> housing & natural scenery.</h1>
             <h3>LOCATED IN LOFOTEN, NORWAY</h3>
-            <div class="mouse">
-                <img src="assets/images/mouse.png" alt="mouse">
-            </div>
+                <div class="mouse">
+                    <img src="assets/images/mouse.png" alt="mouse">
+                </div>
+            </div> -->
         </div>
         <div class="underheader2">
             <div class="u21"><img src="assets/images/littlerectangle.png" alt="littlerectangle"> </div>
@@ -77,13 +90,13 @@
         </div>
         <div class="overfooter5">
             <div class="o51">
-                <img src="assets/images/littlerectangle.png" alt="littlerectangle"><br>
-                The perfect escape.<br>
+                <img src="assets/images/littlerectangle.png" alt="littlerectangle"></div>
+            <div>The perfect escape.<br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur.
             </div>
             <div class="o52">
                 <img src="assets/images/kitchen.png" alt="kitchen">
-                Modern Kitchen Appliances 
+                Modern Kitchen Appliances<br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
             <div class="o53">
@@ -142,6 +155,7 @@
             </div>
         </div>
         <div class="overfooter3">
+            <img class="room" src="assets/images/room.png" alt="room">
         </div>
         <div class="overfooter2">
             <div class="o21">
@@ -197,6 +211,5 @@
             +47 (0) 702 88 12 34 - example@webflow.io - Klubbvika 12, 8310 Kabelvag, Norway
         </div>
     </footer>
-</div>
 </body>
 </html>
